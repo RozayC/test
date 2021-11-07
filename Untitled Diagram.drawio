@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-11-07T20:17:49.816Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" version="15.7.0" etag="5f8f-r__uxn9qtnOREtB" type="github"><diagram id="p9we1PREpxg-fU_-aA_i">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-07T20:24:22.958Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="_ZGqAWc0l-Rxj2PdKcEJ" version="15.7.0" type="github">
+  <diagram id="p9we1PREpxg-fU_-aA_i" name="Page-1">
+    <mxGraphModel dx="652" dy="340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DfuxY6AN9QbSYxq4S6AP-1" value="Django" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="30" y="440" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="DfuxY6AN9QbSYxq4S6AP-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="DfuxY6AN9QbSYxq4S6AP-1" target="DfuxY6AN9QbSYxq4S6AP-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="590" as="sourcePoint" />
+            <mxPoint x="600" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DfuxY6AN9QbSYxq4S6AP-3" value="ML microservice" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="590" y="440" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="DfuxY6AN9QbSYxq4S6AP-4" value="Resting API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="510" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DfuxY6AN9QbSYxq4S6AP-5" value="candidate statistics from the system&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="460" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DfuxY6AN9QbSYxq4S6AP-6" value="endpoint:&amp;nbsp;&lt;span style=&quot;font-family: inherit ; font-size: inherit ; font-style: inherit ; font-weight: inherit ; color: rgb(31 , 51 , 51)&quot;&gt;localhost:5000/predict?&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
