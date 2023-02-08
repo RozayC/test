@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T20:10:33.369Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="jBnz5eVN2J4lU6ETkqq6" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T20:14:15.471Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="nUcaQyHRjjjSOOQ_1Bl9" version="15.7.0" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1357" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="452" dy="208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,24 +19,10 @@
             <mxPoint x="559.5" y="155" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aM9ryv3xv72pqoxQDRHE-8" value="update worker position" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="224.92857142857144" y="336" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="290" y="336" />
-              <mxPoint x="490" y="306" />
-              <mxPoint x="280" y="306" />
-              <mxPoint x="540" y="279" />
-              <mxPoint x="340" y="326" />
-              <mxPoint x="405" y="326" />
-            </Array>
-            <mxPoint x="559.5" y="336" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Hd75yw4WYgafh29qQEwl-1" value="Santorini Game Senario" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Hd75yw4WYgafh29qQEwl-1" value="Santorini Game Senario" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="330" y="60" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Hd75yw4WYgafh29qQEwl-3" value="PlaceWorker(x,y)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="Hd75yw4WYgafh29qQEwl-3" value="PlaceWorker(x,y)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.0154" relative="1" as="geometry">
             <mxPoint x="224.92857142857144" y="180" as="sourcePoint" />
             <Array as="points">
@@ -46,55 +32,53 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hd75yw4WYgafh29qQEwl-4" value="moveWorker(x,y)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.499;exitY=0.563;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
-          <mxGeometry x="0.0313" relative="1" as="geometry">
-            <mxPoint x="224.89999999999998" y="309.83000000000004" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="270" y="310" />
-              <mxPoint x="260" y="310" />
-              <mxPoint x="290" y="280" />
-              <mxPoint x="260" y="280" />
-              <mxPoint x="510" y="250" />
-              <mxPoint x="340" y="250" />
-              <mxPoint x="395" y="240" />
-            </Array>
-            <mxPoint x="559.5" y="310" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Hd75yw4WYgafh29qQEwl-7" value="chooseWorker(i)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="0.0154" relative="1" as="geometry">
-            <mxPoint x="225" y="263" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="530" y="263" />
-              <mxPoint x="540" y="283" />
-              <mxPoint x="260" y="287" />
-              <mxPoint x="380" y="257" />
-              <mxPoint x="300" y="267" />
-              <mxPoint x="335" y="247" />
-              <mxPoint x="390" y="237" />
-            </Array>
-            <mxPoint x="560" y="263" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Hd75yw4WYgafh29qQEwl-10" value="Loop" style="swimlane;horizontal=0;" vertex="1" parent="1">
+        <mxCell id="Hd75yw4WYgafh29qQEwl-10" value="Loop" style="swimlane;horizontal=0;" parent="1" vertex="1">
           <mxGeometry x="170" y="220" width="420" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="Hd75yw4WYgafh29qQEwl-11" value="isPlayerWin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Hd75yw4WYgafh29qQEwl-10">
+        <mxCell id="Hd75yw4WYgafh29qQEwl-11" value="isPlayerWin" style="rounded=1;whiteSpace=wrap;html=1;" parent="Hd75yw4WYgafh29qQEwl-10" vertex="1">
           <mxGeometry x="30" y="10" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Hd75yw4WYgafh29qQEwl-5" value="build(x,y)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="0.0154" relative="1" as="geometry">
-            <mxPoint x="224.92857142857144" y="360" as="sourcePoint" />
+        <mxCell id="Hd75yw4WYgafh29qQEwl-4" value="moveWorker(x, y, a, b)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.499;exitY=0.563;exitDx=0;exitDy=0;exitPerimeter=0;" parent="Hd75yw4WYgafh29qQEwl-10" edge="1">
+          <mxGeometry x="0.0313" relative="1" as="geometry">
+            <mxPoint x="54.99999999999997" y="64.50000000000006" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="390" y="360" />
+              <mxPoint x="100.10000000000002" y="64.67000000000002" />
+              <mxPoint x="90.1" y="64.67000000000002" />
+              <mxPoint x="120.10000000000002" y="34.670000000000016" />
+              <mxPoint x="90.1" y="34.670000000000016" />
+              <mxPoint x="340.1" y="4.670000000000016" />
+              <mxPoint x="170.10000000000002" y="4.670000000000016" />
+              <mxPoint x="225.10000000000002" y="-5.329999999999984" />
             </Array>
-            <mxPoint x="559.5" y="360" as="targetPoint" />
+            <mxPoint x="389.6" y="64.67000000000002" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hd75yw4WYgafh29qQEwl-6" value="update building height of cell at position (x,y)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-8" value="update worker position" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="Hd75yw4WYgafh29qQEwl-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54.928571428571445" y="94.75999999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="94.75999999999999" />
+              <mxPoint x="320" y="64.75999999999999" />
+              <mxPoint x="110" y="64.75999999999999" />
+              <mxPoint x="370" y="37.75999999999999" />
+              <mxPoint x="170" y="84.75999999999999" />
+              <mxPoint x="235" y="84.75999999999999" />
+            </Array>
+            <mxPoint x="389.5" y="94.75999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hd75yw4WYgafh29qQEwl-5" value="build(x,y)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="Hd75yw4WYgafh29qQEwl-10" edge="1">
+          <mxGeometry x="0.0154" relative="1" as="geometry">
+            <mxPoint x="54.928571428571445" y="130" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="220" y="130" />
+            </Array>
+            <mxPoint x="389.5" y="130" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hd75yw4WYgafh29qQEwl-6" value="update building height of cell at position (x,y)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="225" y="387" as="targetPoint" />
             <Array as="points">
@@ -107,19 +91,7 @@
             <mxPoint x="560" y="387" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hd75yw4WYgafh29qQEwl-9" value="Retrieve worker position&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="224.92857142857144" y="286" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="280" y="286" />
-              <mxPoint x="540" y="259" />
-              <mxPoint x="340" y="306" />
-              <mxPoint x="405" y="306" />
-            </Array>
-            <mxPoint x="559.5" y="286" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Hd75yw4WYgafh29qQEwl-12" value="EndGame" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-1" target="aM9ryv3xv72pqoxQDRHE-5">
+        <mxCell id="Hd75yw4WYgafh29qQEwl-12" value="EndGame" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="aM9ryv3xv72pqoxQDRHE-1" target="aM9ryv3xv72pqoxQDRHE-5" edge="1">
           <mxGeometry x="0.0154" relative="1" as="geometry">
             <mxPoint x="230" y="430" as="sourcePoint" />
             <Array as="points">
@@ -129,7 +101,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hd75yw4WYgafh29qQEwl-13" value="initialize worker position" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="Hd75yw4WYgafh29qQEwl-13" value="initialize worker position" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="223.99857142857144" y="204" as="targetPoint" />
             <Array as="points">
