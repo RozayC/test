@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T03:00:17.131Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="zA_KsJQNIDfxqiGeTEyH" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-22T18:16:21.894Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="ofk0zp4Bi1s_bl0QWrQe" version="20.8.21" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="958" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,8 +19,8 @@
             <mxPoint x="559.5" y="155" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hd75yw4WYgafh29qQEwl-1" value="Santorini Game Senario" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="330" y="60" width="140" height="20" as="geometry" />
+        <mxCell id="Hd75yw4WYgafh29qQEwl-1" value="Santorini Base Game Senario" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="310" y="55" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Hd75yw4WYgafh29qQEwl-3" value="initializeWorker(x,y)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry x="0.0154" relative="1" as="geometry">
@@ -33,32 +33,32 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Hd75yw4WYgafh29qQEwl-10" value="Loop" style="swimlane;horizontal=0;" parent="1" vertex="1">
-          <mxGeometry x="170" y="220" width="420" height="190" as="geometry" />
+          <mxGeometry x="170" y="220" width="420" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Hd75yw4WYgafh29qQEwl-11" value="isPlayerWin" style="rounded=1;whiteSpace=wrap;html=1;" parent="Hd75yw4WYgafh29qQEwl-10" vertex="1">
           <mxGeometry x="30" y="10" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Hd75yw4WYgafh29qQEwl-5" value="build(x,y)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="Hd75yw4WYgafh29qQEwl-10" edge="1">
           <mxGeometry x="0.0154" relative="1" as="geometry">
-            <mxPoint x="55.998571428571495" y="140" as="sourcePoint" />
+            <mxPoint x="55.998571428571495" y="170" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="221.06999999999994" y="140" />
+              <mxPoint x="221.06999999999994" y="170" />
             </Array>
-            <mxPoint x="390.56999999999994" y="140" as="targetPoint" />
+            <mxPoint x="390.56999999999994" y="170" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Hd75yw4WYgafh29qQEwl-6" value="update building height of cell at position (x,y)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="Hd75yw4WYgafh29qQEwl-10" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="56.069999999999936" y="170" as="targetPoint" />
+            <mxPoint x="56.069999999999936" y="200" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="361.06999999999994" y="200" />
               <mxPoint x="361.06999999999994" y="170" />
-              <mxPoint x="361.06999999999994" y="140" />
-              <mxPoint x="371.06999999999994" y="130" />
-              <mxPoint x="171.06999999999994" y="177" />
-              <mxPoint x="236.06999999999994" y="177" />
+              <mxPoint x="371.06999999999994" y="160" />
+              <mxPoint x="171.06999999999994" y="207" />
+              <mxPoint x="236.06999999999994" y="207" />
             </Array>
-            <mxPoint x="391.06999999999994" y="170" as="sourcePoint" />
+            <mxPoint x="391.06999999999994" y="200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ik7sO8ciN2WNp-5TPveE-4" value="moveWorker(x, y, a, b)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.499;exitY=0.563;exitDx=0;exitDy=0;exitPerimeter=0;" parent="Hd75yw4WYgafh29qQEwl-10" edge="1">
@@ -91,18 +91,34 @@
             <mxPoint x="388.56999999999994" y="82" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4xU_z1BklP1DjZ1lVSgl-1" value="is player win? if yes, break loop" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="Hd75yw4WYgafh29qQEwl-10">
+        <mxCell id="4xU_z1BklP1DjZ1lVSgl-1" value="if yes, break loop" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="Hd75yw4WYgafh29qQEwl-10" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="53.998571428571495" y="110" as="targetPoint" />
+            <mxPoint x="53.998571428571495" y="140" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="119.06999999999994" y="110" />
-              <mxPoint x="319.06999999999994" y="80" />
-              <mxPoint x="109.06999999999994" y="80" />
-              <mxPoint x="369.06999999999994" y="53" />
-              <mxPoint x="169.06999999999994" y="100" />
-              <mxPoint x="234.06999999999994" y="100" />
+              <mxPoint x="119.06999999999994" y="140" />
+              <mxPoint x="319.06999999999994" y="110" />
+              <mxPoint x="109.06999999999994" y="110" />
+              <mxPoint x="369.06999999999994" y="83" />
+              <mxPoint x="169.06999999999994" y="130" />
+              <mxPoint x="234.06999999999994" y="130" />
             </Array>
-            <mxPoint x="388.56999999999994" y="110" as="sourcePoint" />
+            <mxPoint x="388.56999999999994" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sm6cjqxBVWpOyYgU48xj-1" value="Is Player win?" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.499;exitY=0.563;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Hd75yw4WYgafh29qQEwl-10">
+          <mxGeometry x="0.0313" relative="1" as="geometry">
+            <mxPoint x="56" y="109.50000000000006" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="101.10000000000014" y="109.67000000000002" />
+              <mxPoint x="91.10000000000014" y="109.67000000000002" />
+              <mxPoint x="121.10000000000014" y="79.67000000000002" />
+              <mxPoint x="91.10000000000014" y="79.67000000000002" />
+              <mxPoint x="341.10000000000014" y="49.670000000000016" />
+              <mxPoint x="171.10000000000014" y="49.670000000000016" />
+              <mxPoint x="226.10000000000014" y="39.670000000000016" />
+            </Array>
+            <mxPoint x="390.60000000000014" y="109.67000000000002" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Hd75yw4WYgafh29qQEwl-13" value="initialize worker position" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
@@ -121,19 +137,167 @@
         </mxCell>
         <mxCell id="ik7sO8ciN2WNp-5TPveE-3" value="winner name" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="224.63043478260875" y="440" as="targetPoint" />
+            <mxPoint x="224.63043478260875" y="470" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="340" y="440" />
-              <mxPoint x="395" y="460" />
-              <mxPoint x="345" y="450" />
-              <mxPoint x="280.07" y="440" />
-              <mxPoint x="480.07" y="410" />
-              <mxPoint x="270.07" y="410" />
-              <mxPoint x="530.07" y="383" />
-              <mxPoint x="330.07" y="430" />
-              <mxPoint x="395.07" y="430" />
+              <mxPoint x="340" y="470" />
+              <mxPoint x="395" y="490" />
+              <mxPoint x="345" y="480" />
+              <mxPoint x="280.07" y="470" />
+              <mxPoint x="480.07" y="440" />
+              <mxPoint x="270.07" y="440" />
+              <mxPoint x="530.07" y="413" />
+              <mxPoint x="330.07" y="460" />
+              <mxPoint x="395.07" y="460" />
             </Array>
-            <mxPoint x="559.5" y="440" as="sourcePoint" />
+            <mxPoint x="559.5" y="470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sm6cjqxBVWpOyYgU48xj-2" value=":Player" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="175" y="555" width="100" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="Sm6cjqxBVWpOyYgU48xj-3" value=":System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="510" y="545" width="100" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Sm6cjqxBVWpOyYgU48xj-4" value="Initialize(nameOfPlayer1, nameOfPlayer2)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="224.92857142857144" y="630" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="395" y="630" />
+            </Array>
+            <mxPoint x="559.5" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sm6cjqxBVWpOyYgU48xj-5" value="Santorini God Game (Minotaur) Senario" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="530" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sm6cjqxBVWpOyYgU48xj-6" value="initializeWorker(x,y)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0154" relative="1" as="geometry">
+            <mxPoint x="224.92857142857144" y="655" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="395" y="655" />
+            </Array>
+            <mxPoint x="559.5" y="655" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sm6cjqxBVWpOyYgU48xj-7" value="Loop" style="swimlane;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="695" width="420" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Sm6cjqxBVWpOyYgU48xj-8" value="isPlayerWin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Sm6cjqxBVWpOyYgU48xj-7">
+          <mxGeometry x="30" y="10" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Sm6cjqxBVWpOyYgU48xj-9" value="build(x,y)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="Sm6cjqxBVWpOyYgU48xj-7">
+          <mxGeometry x="0.0154" relative="1" as="geometry">
+            <mxPoint x="55.998571428571495" y="170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="221.06999999999994" y="170" />
+            </Array>
+            <mxPoint x="390.56999999999994" y="170" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sm6cjqxBVWpOyYgU48xj-10" value="update building height of cell at position (x,y)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="Sm6cjqxBVWpOyYgU48xj-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="56.069999999999936" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="361.06999999999994" y="200" />
+              <mxPoint x="361.06999999999994" y="170" />
+              <mxPoint x="371.06999999999994" y="160" />
+              <mxPoint x="171.06999999999994" y="207" />
+              <mxPoint x="236.06999999999994" y="207" />
+            </Array>
+            <mxPoint x="391.06999999999994" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sm6cjqxBVWpOyYgU48xj-11" value="moveWorker(x, y, a, b)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.499;exitY=0.563;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Sm6cjqxBVWpOyYgU48xj-7">
+          <mxGeometry x="0.0313" relative="1" as="geometry">
+            <mxPoint x="55" y="50.00000000000006" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="100.10000000000014" y="50.170000000000016" />
+              <mxPoint x="90.10000000000014" y="50.170000000000016" />
+              <mxPoint x="120.10000000000014" y="20.170000000000016" />
+              <mxPoint x="90.10000000000014" y="20.170000000000016" />
+              <mxPoint x="340.10000000000014" y="-9.829999999999984" />
+              <mxPoint x="170.10000000000014" y="-9.829999999999984" />
+              <mxPoint x="225.10000000000014" y="-19.829999999999984" />
+            </Array>
+            <mxPoint x="389.60000000000014" y="50.170000000000016" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sm6cjqxBVWpOyYgU48xj-12" value="is update worker position (and opponent worker&#39;s position) successful?" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="Sm6cjqxBVWpOyYgU48xj-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="53.998571428571495" y="82" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="119.06999999999994" y="82" />
+              <mxPoint x="319.06999999999994" y="52" />
+              <mxPoint x="109.06999999999994" y="52" />
+              <mxPoint x="369.06999999999994" y="25" />
+              <mxPoint x="169.06999999999994" y="72" />
+              <mxPoint x="234.06999999999994" y="72" />
+            </Array>
+            <mxPoint x="388.56999999999994" y="82" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sm6cjqxBVWpOyYgU48xj-13" value="if yes, break loop" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="Sm6cjqxBVWpOyYgU48xj-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="53.998571428571495" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="119.06999999999994" y="140" />
+              <mxPoint x="319.06999999999994" y="110" />
+              <mxPoint x="109.06999999999994" y="110" />
+              <mxPoint x="369.06999999999994" y="83" />
+              <mxPoint x="169.06999999999994" y="130" />
+              <mxPoint x="234.06999999999994" y="130" />
+            </Array>
+            <mxPoint x="388.56999999999994" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sm6cjqxBVWpOyYgU48xj-14" value="Is Player win?" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.499;exitY=0.563;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Sm6cjqxBVWpOyYgU48xj-7">
+          <mxGeometry x="0.0313" relative="1" as="geometry">
+            <mxPoint x="56" y="109.50000000000006" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="101.10000000000014" y="109.67000000000002" />
+              <mxPoint x="91.10000000000014" y="109.67000000000002" />
+              <mxPoint x="121.10000000000014" y="79.67000000000002" />
+              <mxPoint x="91.10000000000014" y="79.67000000000002" />
+              <mxPoint x="341.10000000000014" y="49.670000000000016" />
+              <mxPoint x="171.10000000000014" y="49.670000000000016" />
+              <mxPoint x="226.10000000000014" y="39.670000000000016" />
+            </Array>
+            <mxPoint x="390.60000000000014" y="109.67000000000002" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sm6cjqxBVWpOyYgU48xj-15" value="initialize worker position" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="223.99857142857144" y="679" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="289.07" y="679" />
+              <mxPoint x="489.07" y="649" />
+              <mxPoint x="279.07" y="649" />
+              <mxPoint x="539.07" y="622" />
+              <mxPoint x="339.07" y="669" />
+              <mxPoint x="404.07" y="669" />
+            </Array>
+            <mxPoint x="558.57" y="679" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sm6cjqxBVWpOyYgU48xj-16" value="winner name" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="224.63043478260875" y="945" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="945" />
+              <mxPoint x="395" y="965" />
+              <mxPoint x="345" y="955" />
+              <mxPoint x="280.07" y="945" />
+              <mxPoint x="480.07" y="915" />
+              <mxPoint x="270.07" y="915" />
+              <mxPoint x="530.07" y="888" />
+              <mxPoint x="330.07" y="935" />
+              <mxPoint x="395.07" y="935" />
+            </Array>
+            <mxPoint x="559.5" y="945" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
